@@ -1,0 +1,32 @@
+{
+  "name": "ytmpv",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "YouTube TUI frontend for MPV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llamda/ytmpv.git"
+  },
+  "keywords": [
+    "youtube",
+    "mpv",
+    "tui"
+  ],
+  "author": "llamda",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/llamda/ytmpv/issues"
+  },
+  "homepage": "https://github.com/llamda/ytmpv#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "open": "^8.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  }
+}
